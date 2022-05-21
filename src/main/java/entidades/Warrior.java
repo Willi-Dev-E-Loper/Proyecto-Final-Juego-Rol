@@ -6,4 +6,27 @@ public class Warrior extends Human{
     }
 
 
+
+    protected void hit(int attackPoints) {
+
+        if (attackPoints<5){
+            attackPoints=0;
+            int vida = getP_vida() - (attackPoints - getP_defensa());
+            if (vida<=0){
+                setP_vida(0);
+                System.out.println(this.getName() + " ha sido derrotado");
+            }else {
+                setP_vida(vida);
+            }
+        }else {
+            int vida = getP_vida() - (attackPoints - getP_defensa());
+            if (vida<=0){
+                setP_vida(0);
+                System.out.println(this.getName() + " ha sido derrotado");
+            }else {
+                setP_vida(vida);
+            }
+        }
+
+    }
 }
