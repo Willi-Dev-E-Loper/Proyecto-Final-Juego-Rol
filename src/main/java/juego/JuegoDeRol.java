@@ -631,11 +631,15 @@ public class JuegoDeRol implements Serializable {//Serializable para poder manej
                     System.out.println("Ranking de jugadores:");
 
                     //Recorro la lista de jugadores para mostrar el ranking
-
-                    for (int i =1; i< 6; i++){
-                        System.out.println(i+"º "+ players.get(i-1).getName() +" Vida resultante: "+ players.get(i-1).getP_vida());
-                        ranking.add(players.get(i-1));
+                    try {
+                        for (int i =1; i< 6; i++){
+                            System.out.println(i+"º "+ players.get(i-1).getName() +" Vida resultante: "+ players.get(i-1).getP_vida());
+                            ranking.add(players.get(i-1));
+                        }
+                    }catch (IndexOutOfBoundsException e){
+                        //Capturo excepppcion por si hay menos jugadores
                     }
+
 
 
                     break;

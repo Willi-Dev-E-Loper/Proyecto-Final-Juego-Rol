@@ -3,6 +3,9 @@ package entidades;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+/**
+ * @author Guillermo Mora Bertó
+ */
 public abstract class Player implements Serializable, Comparable<Player> {
     private String name;
     private int p_ataque;

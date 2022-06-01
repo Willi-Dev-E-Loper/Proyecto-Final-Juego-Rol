@@ -2,6 +2,9 @@ package entidades;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+/**
+ * @author Guillermo Mora Bertó
+ */
 
 public class Team implements Serializable {
     public String name;

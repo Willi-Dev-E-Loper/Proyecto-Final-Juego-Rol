@@ -1,6 +1,9 @@
 package entidades;
 
 import java.io.Serializable;
+/**
+ * @author Guillermo Mora Bertó
+ */
 
 public class Item implements Serializable {
     String name;

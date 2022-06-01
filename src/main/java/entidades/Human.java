@@ -1,4 +1,7 @@
 package entidades;
+/**
+ * @author Guillermo Mora Bertó
+ */
 
 public class Human extends Player{
     //Constructor de la clase Human hereda de la superclase
