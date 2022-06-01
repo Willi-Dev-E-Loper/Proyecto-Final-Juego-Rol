@@ -1,0 +1,8 @@
+entidades/Player.class
+entidades/Team.class
+io/leer.class
+entidades/Human.class
+entidades/Warrior.class
+entidades/Alien.class
+entidades/Item.class
+juego/JuegoDeRol.class
