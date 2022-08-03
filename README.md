@@ -1,4 +1,4 @@
-# Proyecto-Finla-Juego-Rol
+# Proyecto-Final-Juego-Rol
  Proyecto de final de curso de la asignatura de programación.
 
 # Uso:
